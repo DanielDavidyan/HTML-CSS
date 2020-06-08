@@ -1,28 +1,30 @@
-*{
+body {
     margin: 0;
 }
 
-.navbar{
+.navbar {
     background-color: #2b61bd;
     display: flex;
     justify-content: space-between;
     text-shadow: 1px 1px 1px black;
 }
 
-.nav-logo-box{
+.nav-logo-box {
     display: flex;
+    align-items: center;
 }
 
-.nav-links-box{
+.nav-links-box {
     margin-right: 2%;
+    align-items: center;
     display: flex;
 }
 
-.nav-links{
+.nav-links {
     color: white;
     padding: 1vh;
     text-decoration: none;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
 }
 
@@ -30,64 +32,69 @@
     background-color: #748CAF;
 }
 
-.search{
+.search {
     margin: 1% 1% 0 10%;
 }
 
-.followers{
+.followers {
     display: flex;
     justify-content: space-between;
 }
 
-.all-followers{
+.all-followers {
     margin-left: 10%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.followers-control{
+.followers-control {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
     margin: 1% 5% 1% 1%;
     border: solid #c0c0c0 3px;
     border-radius: 3px;
 }
 
-.followers-control-divs{
+.followers-control-divs {
     border: solid #c0c0c0 4px;
     border-radius: 3px;
     margin: 0 10% 0 10%;
-}
-
-.avatar{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     margin: 1%;
     padding: 1%;
     border: solid silver 3px;
     border-radius: 3px;
 }
 
-.avatar-divs{
+.avatar-divs {
     margin: 1%;
     display: flex;
     justify-content: center;
 }
 
-.regular-avatar-img{
+.regular-avatar-img {
     width: 30%;
 }
 
-.control-avatar-img{
+.control-avatar-img {
     width: 50%;
 }
 
-#logo-img{
+#logo-img {
     width: 1.2em;
 }
 
-#followers-control-font{
+#followers-control-font {
     font-weight: bold;
 }
