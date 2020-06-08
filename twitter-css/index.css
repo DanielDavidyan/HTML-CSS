@@ -58,8 +58,7 @@
 .followers-control-divs{
     border: solid #c0c0c0 4px;
     border-radius: 3px;
-    margin: 0 5% 0 5%;
-
+    margin: 0 10% 0 10%;
 }
 
 .avatar{
@@ -77,14 +76,18 @@
     justify-content: center;
 }
 
-.avatar-divs img {
+.regular-avatar-img{
     width: 30%;
 }
 
-.followers-control-divs img {
+.control-avatar-img{
     width: 50%;
 }
 
-.nav-logo-box img{
+#logo-img{
     width: 1.2em;
+}
+
+#followers-control-font{
+    font-weight: bold;
 }
