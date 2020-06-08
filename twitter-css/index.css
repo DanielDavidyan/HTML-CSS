@@ -1,90 +1,90 @@
-.nav{
+*{
+    margin: 0;
+}
+
+.navbar{
     background-color: #2b61bd;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-}
-
-.nav-left{
-    font-size: 150%;
     text-shadow: 1px 1px 1px black;
+}
+
+.nav-logo-box{
     display: flex;
 }
 
-.nav-right{
-    margin: 0 2%;
-    text-shadow: 1px 1px 1px black;
-    display: flex;
-}
-.nav-ul{
-    margin: 0;
-    padding: 0;
+.nav-links-box{
+    margin-right: 2%;
     display: flex;
 }
 
-.nav-li{
+.nav-links{
+    color: white;
+    padding: 1vh;
+    text-decoration: none;
     display: flex;
     align-items: center;
 }
 
-.nav-a{
-    color: white;
-    padding: 1vh;
-    text-decoration: none;
-}
-
-.nav-li:hover {
-    background-color: rgb(116, 140, 175);
+.nav-links:hover {
+    background-color: #748CAF;
 }
 
 .search{
     margin: 1% 1% 0 10%;
 }
 
-.followers-left{
+.followers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-followers{
     margin-left: 10%;
-    width: 60%;
-    float: left;
     display: flex;
     flex-wrap: wrap;
-    justify-content:start;
 }
 
-.followers-right{
-    margin: 1% 5% 1% 1%;
-    width: 15%;
-    border: solid #c0c0c0 3px;
-    border-radius: 3px;
-    float: right;
+.followers-control{
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
     text-align: center;
+    margin: 1% 5% 1% 1%;
+    border: solid #c0c0c0 3px;
+    border-radius: 3px;
 }
 
-.followers-right-div{
+.followers-control-divs{
     border: solid #c0c0c0 4px;
     border-radius: 3px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 5%;
+    margin: 0 5% 0 5%;
+
 }
 
 .avatar{
     display: flex;
     flex-direction: column;
-    align-self: center;
     margin: 1%;
     padding: 1%;
     border: solid silver 3px;
     border-radius: 3px;
-    font-size: smaller;
 }
 
-.avatar-div{
+.avatar-divs{
     margin: 1%;
     display: flex;
     justify-content: center;
-    text-align: center;
 }
 
+.avatar-divs img {
+    width: 30%;
+}
 
+.followers-control-divs img {
+    width: 50%;
+}
+
+.nav-logo-box img{
+    width: 1.2em;
+}
